@@ -1,0 +1,31 @@
+###
+GET http://localhost:5000/api/users
+###
+
+###
+POST http://localhost:5000/api/register
+Content-Type: application/json
+
+{
+    "nome":"João Silva",
+    "email":"joao2@gmail.com",
+    "idade":28
+}
+
+###
+
+
+###
+
+PUT http://localhost:5000/api/users/68f96fc6d3a13767b10f589f
+Content-Type: application/json
+
+{
+    "nome":"João Silva Atualizado",
+    "email":"joao2@gmail.com",
+    "idade":60 
+}
+
+###
+DELETE http://localhost:5000/api/users/68f96fc6d3a13767b10f589f
+###
